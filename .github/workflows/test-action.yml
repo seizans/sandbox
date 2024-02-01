@@ -21,7 +21,7 @@ jobs:
         uses: crate-ci/typos@bdcaedb080584d2f4f93f1da48df4645149adb7f
 
       - name: Configure AWS credentials
-        uses: aws-actions/configure-aws-credentials@v3
+        uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: 'arn:aws:iam::012345678901:role/FooBarAction'
           aws-region: ap-northeast-1

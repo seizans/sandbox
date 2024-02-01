@@ -6,3 +6,4 @@ updates:
       interval: "weekly"
     allow:
       - dependency-name: "actions/*"
+      - dependency-name: "aws-actions/*"
